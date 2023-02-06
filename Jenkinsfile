@@ -1,4 +1,4 @@
 @Library('jenkins-demo')
-check
-deployment
-test
+check.groovy
+deployment.groovy
+test.groovy

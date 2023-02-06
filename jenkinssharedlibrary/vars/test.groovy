@@ -1,12 +1,13 @@
-pipeline {
-          stage('test') {
-            when {
-                expression{
-                    params.project == true 
+def call() {
+    pipeline 
+            stage('test') {
+                when {
+                    expression{
+                        params.project == true 
+                    }
+                }
+                steps {
+                    echo "testing your app" 
                 }
             }
-            steps {
-                echo "testing your app" 
-            }
-        }
 }

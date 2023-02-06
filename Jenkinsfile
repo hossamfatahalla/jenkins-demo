@@ -1,2 +1,2 @@
 @Library('jenkins-demo')
-check("")
+check("parameters" ,"check")

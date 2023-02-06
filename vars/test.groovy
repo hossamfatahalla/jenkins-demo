@@ -1,5 +1,4 @@
-def call(){
-pipeline 
+pipeline {
           stage('test') {
             when {
                 expression{

@@ -1,5 +1,4 @@
-def call(){
-pipeline 
+pipeline {
      agent any
     parameters {
         booleanParam(name:'project', defaultValue: true, description:'this paramater help you to know project name')

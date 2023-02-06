@@ -1,4 +1,4 @@
-def call(){
+def call(parameters , check ){
 pipeline 
      agent any
     parameters {

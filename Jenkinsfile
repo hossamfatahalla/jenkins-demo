@@ -1,4 +1,4 @@
-@Library('jenkinssharedlibrary')
+@Library('vars')
 pipeline {
      agent any
     parameters {
